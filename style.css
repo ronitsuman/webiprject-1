@@ -816,9 +816,201 @@ text-align: center;
 /* blog section start here */
 .blog{
     width: 1440px;
-    height: 657px;
-    border: 1px solid;
+    /* height: 657px; */
+    padding: 2rem 3rem;
+    /* border: 1px solid; */
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.blog-tittle{
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.blog-tittle a {
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    color: #171D28;
+    border-bottom: 2px solid;
+}
+.blog-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.blog-cart-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .3rem;
+    text-align: left;
+}
+.blog-cart-1 p {
+styleName: Headline 7;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+
+}
+.blog-cart-1 a{
+    text-decoration: none;
+    border-bottom: 1px solid #377DFF;
+    color: black;
+}
+/* blog section ends here */
+/* <!-- instagram newsfeed start here --> */
+.instagramnewsfeed{
+    width: 1440px;
+    /* height: 550px ; */
+    padding: 20px 40px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.instagram-tittle{
+    width: 544px;
+    height: 168px;
+    /* padding: 30px 20px ; */
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column ;
+
+}
+.instagram-tittle span{
+styleName: Hairline 1;
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+text-align: center;
+
+}
+.instagram-tittle h4{
+    styleName: Headline 4;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    
+}
+.instagram-tittle p {
+    styleName: Body 1;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    
+}
+.instagram-tittle h3{
+    styleName: Headline 7;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    
+}
+.instagram-post{
+    width: 1120px;
+    height: 262px;
+    /* border: 1px solid ; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+/* <!-- instagram newsfeed end here --> */
+/* <!-- values start here --> */
+.values{
+    width: 1440px;
+    /* height: 252px; */
+    /* border: 1px solid ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 2rem;
+}
+.values-card{
+    width:250px ;
+    /* height:220px ; */
+    /* border: 1px solid ; */
+    display: flex;
+    padding: 1rem 1rem ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.values-text h2{
+    styleName: Headline 7;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    
+}
+.values-text p{
+    styleName: Caption;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
 }
 
-/* blog section ends here */
+/* <!-- values ends here --> */
+/* footer start here */
+footer{
+    width: 1440px;
+    height: 542px;
+    background-color: #E8ECEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.content-footer{
+    width: 1120px;
+    height: 430px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 2rem;
+}
+.bottom{
+    width: 1120px ;
+    height:96px ;
+    border: 1px solid;
+}
+/* footer end here */
+.frame ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: .3rem;
+}
 
